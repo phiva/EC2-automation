@@ -7,3 +7,7 @@ variable "instance_type" {
   description = "Tipo da instância"
   default     = "t2.micro"
 }
+
+variable "subnet_id" {
+  description = "Subnet ID para a instância EC2"
+}
