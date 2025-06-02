@@ -1,8 +1,3 @@
-#variable "region" {
- # description = "AWS region"
-  # default     = "us-east-1"
-# }
-
 variable "ami_id" {
   description = "AMI ID"
   default     = "ami-0f9de6e2d2f067fca" # Amazon Linux 2 (exemplo)
